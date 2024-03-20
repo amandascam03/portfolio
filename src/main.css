@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#about, #skills, #portfolio {
+  height: 100vh;
+  padding-top: 54px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
