@@ -5,11 +5,14 @@
 
 #about, #skills, #portfolio {
   height: 100vh;
-  padding-top: 54px;
 }
 
 html {
   scroll-behavior: smooth;
+  background-color: #090E16;
 }
 
-
+h2 {
+  color: #FFFF;
+  padding-top: 100px;
+}
