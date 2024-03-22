@@ -1,7 +1,9 @@
+import { Profile } from "../../components/Profile/Profile"
+
 export const About = () => {
   return (
     <div id="about">
-    <h2>Page About</h2>
+    <Profile />
   </div>
   )
 }

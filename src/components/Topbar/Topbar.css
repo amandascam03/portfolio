@@ -1,17 +1,7 @@
-* {
-  font-family: "Raleway", sans-serif;
-}
-
 .topbar {
   position: fixed;
   margin-top: 32px;
-  justify-content: center;
   width: 100vw;
-}
-
-.topbar, header {
-  display: flex;
-  align-items: center;
 }
 
 header {
@@ -19,7 +9,6 @@ header {
   border-radius: 16px;
   height: 64px;
   width: 90vw;
-  justify-content: end;
 }
 
 .navigation {
@@ -40,4 +29,10 @@ ul > li > a {
 a:hover {
   color:  rgba(123, 74, 226, 0.5);
   font-weight: 700;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

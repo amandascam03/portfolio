@@ -3,8 +3,8 @@ import "./Topbar.css"
 export const Topbar = () => {
 
   return (
-    <div className="topbar">
-      <header>
+    <div className="topbar center">
+      <header className="center">
       <nav className="navigation">
       <ul>
         <li>
