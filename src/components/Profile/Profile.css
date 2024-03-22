@@ -1,0 +1,16 @@
+.profile {
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.box-pic {
+  background-color: mediumslateblue;
+  height: 260px;
+  width: 260px;
+  border-radius: 50%;
+}
+
+.box-contact {
+  margin-top: 10px;
+  gap: 15px;
+}
