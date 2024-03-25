@@ -1,0 +1,21 @@
+.buttons-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  padding: 0 25px;
+}
+
+.buttons-box button {
+  display: inline-block;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1px solid rgba(123, 74, 226, 0.5);
+  height: 40px;
+  width: 130px;
+}
+
+.buttons-box button a {
+  text-decoration: none;
+  font-weight: 700;
+  color: rgba(123, 74, 226, 0.5);
+}
