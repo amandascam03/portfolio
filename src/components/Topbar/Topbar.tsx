@@ -6,7 +6,7 @@ export const Topbar = () => {
     <div className="topbar center">
       <header className="center">
       <nav className="navigation">
-      <ul>
+      <ul className="nav-list">
         <li>
           <a href="#about">Sobre mim</a>
         </li>
