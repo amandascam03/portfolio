@@ -3,13 +3,12 @@ import { Description } from "../../components/Description/Description";
 import { PageName } from "../../components/PageName/PageName";
 import { Profile } from "../../components/Profile/Profile";
 import { Title } from "../../components/Title/Title";
-import "./About.css"
 
 export const About = () => {
   return (
     <div id="about">
       <Profile />
-      <section className="about-me">
+      <section className="about-box">
         <PageName name="Sobre mim" />
         <Title titleName="Amanda Araujo" />
         <Description
@@ -20,8 +19,8 @@ export const About = () => {
           Typescript."
           size="1em"
         />
+         <Buttons />
       </section>
-      <Buttons />
     </div>
   );
 };
