@@ -20,7 +20,7 @@ html {
   align-items: center;
 }
 
-.about-box, .skills-box {
+.about-box, .skills-box, .portfolio-box {
   padding: 0 25px;
   margin-top: 20px;
 }
