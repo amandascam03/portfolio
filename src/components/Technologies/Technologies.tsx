@@ -1,10 +1,10 @@
-interface TecnologiesData {
+interface TechnologiesData {
   srcTechImg: string;
   altTech: string;
   techSize: string;
 }
 
-export const Tecnologies = ({srcTechImg, altTech, techSize}: TecnologiesData) => {
+export const Technologies = ({srcTechImg, altTech, techSize}: TechnologiesData) => {
   return (
     <>
     <img src={srcTechImg} alt={altTech} style={{height: techSize}} />
