@@ -13,7 +13,12 @@ import viteImage from "../assets/vite.png"
 import jestImage from "../assets/jest.png"
 import npmImage from "../assets/npm.png"
 
-export const skillsData = [
+interface ISkills {
+  name: string;
+  img: string;
+}
+
+export const skillsData: ISkills[] = [
   {name: "HTML", img: htmlImage},
   {name: "CSS", img: cssImage},
   {name: "Javascript", img: jsImage},
