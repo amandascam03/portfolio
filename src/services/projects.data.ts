@@ -6,7 +6,19 @@ import mdLinks from "../assets/mdlinks-thumb.png"
 import labNotes from "../assets/ln-thumb.png"
 import Zozoz from "../assets/zstudio-thumb.png"
 
-export const projects = [
+interface IProjects {
+  image: string;
+  name: string;
+  desc: string;
+  technologies: {
+    name: string;
+    img: string;
+  }[]
+  demo: string;
+  code: string;
+}
+
+export const projects: IProjects[] = [
   {
     image: creditCard,
     name: "Card Validation",
@@ -82,7 +94,7 @@ export const projects = [
   {
     image: Zozoz,
     name: "Zozoz Studio",
-    desc: "Aplicação freelance de uma página de salão de unhas para agendamento e divulgação de trabalho.",
+    desc: "Aplicação freelance de uma página de salão de unhas para agendamento e divulgação de serviços.",
     technologies: [
       skillsData.find(skill => skill.name === "HTML") ?? { name: "", img: "" },
       skillsData.find(skill => skill.name === "CSS") ?? { name: "", img: "" },

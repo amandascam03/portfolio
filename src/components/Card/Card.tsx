@@ -32,7 +32,7 @@ export const Card = ({
         <img src={projectImage} alt="project image" width={"100px"} />
       </picture>
       <Title titleName={projectName} titleSize="1.17em" />
-      <Description desc={projectDescription} size="14px" />
+      <Description desc={projectDescription} size="14px" descHeight="90px" />
       <div className="technologies">
         <ul className="tech-list">
           {projectTechnologies.map((skill, index) =>
@@ -42,7 +42,7 @@ export const Card = ({
         </ul>
       </div>
       <div className="card-btns">
-        <button><a target="_blank" href={projectDemo}>Demo</a></button>
+        <button><a target="_blank" href={projectDemo}>Deploy</a></button>
         <button><a target="_blank" href={projectCode}>Code</a></button>
       </div>
     </div>
