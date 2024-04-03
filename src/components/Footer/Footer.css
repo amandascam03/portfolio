@@ -1,0 +1,6 @@
+footer {
+  height: 90px;
+  background-color: #14142A;
+  flex-direction: column;
+  padding: 10px;
+}
