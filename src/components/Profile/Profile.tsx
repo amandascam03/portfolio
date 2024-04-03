@@ -1,4 +1,4 @@
-import { Contact } from "../Contact/Contact";
+import { Contacts } from "../Contacts/Contacts";
 import { Description } from "../Description/Description";
 import "./Profile.css";
 
@@ -9,10 +9,8 @@ export const Profile = () => {
         <img src="" alt="foto de perfil" />
       </picture>
       <Description desc="Front-end Developer" size="15px" />
-      <div className="box-contact center">
-        <Contact imageSrc="" imageAlt="" />
-        <Contact imageSrc="" imageAlt="" />
-        <Contact imageSrc="" imageAlt="" />
+      <div className="box-contacts center">
+        <Contacts />
       </div>
     </div>
   );
