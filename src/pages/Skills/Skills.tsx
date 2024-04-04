@@ -15,7 +15,8 @@ export const Skills = () => {
         <ul className="skills-list center">
           {skillsData.map((skill, index) =>
           <li key={index}>
-            <Technologies srcTechImg={skill.img} altTech={skill.name} techSize="44px" />
+            <Technologies srcTechImg={skill.img} altTech={skill.name} techSize="30px" />
+            <p style={{color: "white"}}>{skill.name}</p>
           </li>)}
         </ul>
       </section>

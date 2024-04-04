@@ -4,14 +4,19 @@
   font-family: "Raleway", sans-serif;
 }
 
-#about, #skills, #portfolio {
-  min-height: 100vh;
-  padding: 100px 0;
-}
-
 html {
   scroll-behavior: smooth;
   background-color: #090E16;
+}
+
+#about, #portfolio {
+  min-height: 100vh;
+  padding: 120px 0 80px 0;
+}
+
+#skills {
+  min-height: 70vh;
+  padding: 120px 0 80px 0;
 }
 
 .center {

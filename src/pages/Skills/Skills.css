@@ -4,3 +4,26 @@
   gap: 20px;
   margin-top: 25px;
 }
+
+.skills-list > li {
+  border: 1px solid rgba(123, 74, 226, 0.5);
+  width: 120px;
+  height: 55px;
+  gap: 5px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 1024px) {
+  .skills-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skills-list {
+    padding: 0 200px;
+  }
+
+}

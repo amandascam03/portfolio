@@ -16,12 +16,20 @@ export const Contacts = () => {
         </a>
       </picture>
       <picture className="center github-pic">
-        <a className="center" href="">
+        <a
+          className="center"
+          href="https://github.com/amandascam03/"
+          target="_blank"
+        >
           <img src={github} alt="github" height={"36px"} />
         </a>
       </picture>
       <picture className="center slack-pic">
-        <a className="center" href="">
+        <a
+          className="center"
+          href="https://claseslaboratoria.slack.com/team/U0539HNNNER"
+          target="_blank"
+        >
           <img src={slack} alt="slack" height={"24px"} />
         </a>
       </picture>

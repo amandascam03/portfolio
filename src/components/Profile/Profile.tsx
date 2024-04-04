@@ -4,7 +4,7 @@ import "./Profile.css";
 
 export const Profile = () => {
   return (
-    <div className="profile center">
+    <div className="profile">
       <picture className="box-pic center">
         <img src="" alt="foto de perfil" />
       </picture>

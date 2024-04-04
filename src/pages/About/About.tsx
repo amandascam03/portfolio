@@ -3,6 +3,7 @@ import { Description } from "../../components/Description/Description";
 import { PageName } from "../../components/PageName/PageName";
 import { Profile } from "../../components/Profile/Profile";
 import { Title } from "../../components/Title/Title";
+import "./About.css"
 
 export const About = () => {
   return (
