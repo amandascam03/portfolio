@@ -1,0 +1,23 @@
+@media (min-width: 1024px) {
+
+  #about {
+    display: grid;
+    grid-template-areas:
+    ".        .      ."
+    "profile aboutme ."
+    ".     .         ."
+    ;
+    grid-template-rows: 80px;
+    grid-template-columns: 40% 55% 5%;
+  }
+
+  .profile {
+    grid-area: profile;
+    margin-top: 0px;
+    justify-content: start;
+  }
+
+  .about-box {
+    grid-area: aboutme;
+  }
+}
