@@ -102,7 +102,7 @@ export const projects: IProjects[] = [
       skillsData.find(skill => skill.name === "React") ?? { name: "", img: "" },
       skillsData.find(skill => skill.name === "Git") ?? { name: "", img: "" },
     ],
-    demo: "",
+    demo: "https://zozoz.vercel.app/",
     code: "https://github.com/amandascam03/zozoz"
   }
 ];
