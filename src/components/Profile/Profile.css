@@ -7,10 +7,11 @@
 }
 
 .box-pic {
-  background-color: mediumslateblue;
   height: 260px;
   width: 260px;
   border-radius: 50%;
+  box-shadow: rgba(123, 74, 226, 0.2) 0px 10px 50px;
+  margin-bottom: 10px;
 }
 
 .box-contacts {

@@ -13,11 +13,9 @@ export const About = () => {
         <PageName name="Sobre mim" />
         <Title titleName="Amanda Araujo" />
         <Description
-          desc="Prazer! Sou Desenvolvedora Front-end graduada pela Laboratoria.
-          Atualmente cursando Análise e Desenvolvimento de Sistemas
-          pela Descomplica Faculdade Digital. Interesses em
-          desenvolvimento Front-end com JavaScript, React JS e
-          Typescript."
+          desc="Pode me chamar de Amanda, prazer! Sou Desenvolvedora Front-end graduada pela Laboratoria.
+          Fique à vontade para ver meus projetos e skills e entrar em contato
+          para compartilharmos conhecimento ou trocar ideias!"
           size="1em"
         />
          <Buttons />
