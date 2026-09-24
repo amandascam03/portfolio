@@ -7,7 +7,7 @@ export const Footer = () => {
     <>
       <footer className="center">
         <Contacts />
-        <Description desc="Copyright © Amanda Araujo · 2024" size="1em" />
+        <Description desc="Copyright © Amanda Araujo · 2026" size="1em" />
       </footer>
     </>
   );

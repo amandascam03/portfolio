@@ -18,3 +18,7 @@
   margin-top: 10px;
   gap: 15px;
 }
+
+.profilePic {
+  border-radius: 50%;
+}

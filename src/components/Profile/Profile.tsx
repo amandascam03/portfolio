@@ -1,13 +1,13 @@
 import { Contacts } from "../Contacts/Contacts";
 import { Description } from "../Description/Description";
 import "./Profile.css";
-import profilePic from "../../assets/profile-pic.png"
+import profilePic from "../../assets/amanda-profile.png"
 
 export const Profile = () => {
   return (
     <div className="profile">
       <picture className="box-pic center">
-        <img src={profilePic} alt="foto de perfil" height={"260px"} />
+        <img src={profilePic} alt="foto de perfil" height={"260px"} className="profilePic" />
       </picture>
       <Description desc="Front-end Developer" size="15px" />
       <div className="box-contacts center">

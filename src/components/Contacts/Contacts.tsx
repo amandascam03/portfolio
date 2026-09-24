@@ -1,7 +1,6 @@
 import "./Contacts.css";
 import linkedin from "../../assets/linkedin.png";
 import github from "../../assets/github-contact.png";
-import slack from "../../assets/slack.png";
 
 export const Contacts = () => {
   return (
@@ -22,15 +21,6 @@ export const Contacts = () => {
           target="_blank"
         >
           <img src={github} alt="github" height={"36px"} />
-        </a>
-      </picture>
-      <picture className="center slack-pic">
-        <a
-          className="center"
-          href="https://claseslaboratoria.slack.com/team/U0539HNNNER"
-          target="_blank"
-        >
-          <img src={slack} alt="slack" height={"24px"} />
         </a>
       </picture>
     </div>
